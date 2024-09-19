@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
   <nav class="navbar bg-body-tertiary">
     <div class="container">
       <a class="navbar-brand"><i class="fa-brands fa-instagram m-2"></i>Instagram</a>
@@ -28,37 +29,39 @@
             <li><a class="dropdown-item" href="#">Profile</a></li>
             <li><a class="dropdown-item" href="#">Accesibility</a></li>
             <li><a class="dropdown-item" href="#">Privacy and data</a></li>
-            <li><hr class="dropdown-divider"></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
             <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
           </ul>
         </div>
-        <!-- Modal -->
+        
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
 
-            <!-- //MODAL HEADER// -->
               <div class="modal-header">
                 <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
 
-              <!-- !-- MODAL BODY             --> -->
               <div class="modal-body">
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label">Caption</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
                     placeholder="Add the caption of your post here"></textarea>
                 </div>
+
                 <button type="button" class="btn btn-light">
                   <i class="fa-solid fa-camera"></i>
                 </button>
+
                 <button type="button" class="btn btn-light">
                   <i class="fa-solid fa-location-dot"></i>
                 </button>
+
               </div>
 
-              <!-- MODAL FOOTER -->
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-success">Publish</button>
@@ -92,9 +95,10 @@
 
   <div class="tab-content" id="myTabContent">
     <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+      
       <div class="row my-4 mx-2">
-        <div class="col-4 d-flex" style="height: 400px;">
 
+        <div class="col-4 d-flex" style="height: 400px;">
           <img class="object-fit-cover w-100"
             src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/1.jpg?raw=true"
             alt="perrito">
@@ -111,7 +115,6 @@
             src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/3.jpg?raw=true"
             alt="paisaje">
         </div>
-
       </div>
 
       <div class="row my-4 mx-2">
@@ -133,7 +136,6 @@
             src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/6.jpg?raw=true"
             alt="ronaldo jugando">
         </div>
-
       </div>
 
       <div class="row my-4 mx-2">
@@ -155,28 +157,25 @@
             src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/9.jpg?raw=true"
             alt="en clase">
         </div>
-
       </div>
-
     </div>
 
     <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-      <div class="card mx-auto d-block w-50" style="height:60px">
 
+      <div class="card mx-auto d-block w-50" style="height:60px">
         <div class="d-flex mb-3">
           <div class="me-auto p-2 fs-3">My crazy dog Spark!</div>
           <div class="p-2"><strong>08/26</strong></div>
         </div>
-
       </div>
 
       <h1><img class="mx-auto d-block w-50"
           src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/1.jpg?raw=true"
           alt="perrito">
-        <div class="card mx-auto d-block w-50 fs-5 p-2" style="height:90px">
-          <p><strong>204 Likes</strong></p>
-          <p>This is an example of a very good photo that you can post on Instagram</p>
-        </div>
+                <div class="card mx-auto d-block w-50 fs-5 p-2" style="height:90px">
+                  <p><strong>204 Likes</strong></p>
+                  <p>This is an example of a very good photo that you can post on Instagram</p>
+                </div>
       </h1>
 
       <div class="card mx-auto d-block w-50" style="height:60px">
@@ -189,10 +188,10 @@
       <h1><img class="mx-auto d-block w-50"
           src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/3.jpg?raw=true"
           alt="paisaje">
-        <div class="card mx-auto d-block w-50 fs-5 p-2" style="height:90px">
-          <p><strong>26985 Likes</strong></p>
-          <p>This is an example of a very good photo that you can post on Instagram</p>
-        </div>
+            <div class="card mx-auto d-block w-50 fs-5 p-2" style="height:90px">
+              <p><strong>26985 Likes</strong></p>
+              <p>This is an example of a very good photo that you can post on Instagram</p>
+            </div>
       </h1>
 
       <div class="card mx-auto d-block w-50" style="height:60px">
@@ -204,10 +203,10 @@
       <h1><img class="mx-auto d-block w-50"
           src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/6.jpg?raw=true"
           alt="ronaldo jugando">
-        <div class="card mx-auto d-block w-50 fs-5 p-2" style="height:90px">
-          <p><strong>204 Likes</strong></p>
-          <p>This is an example of a very good photo that you can post on Instagram</p>
-        </div>
+            <div class="card mx-auto d-block w-50 fs-5 p-2" style="height:90px">
+              <p><strong>204 Likes</strong></p>
+              <p>This is an example of a very good photo that you can post on Instagram</p>
+            </div>
       </h1>
 
     </div>
